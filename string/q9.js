@@ -1,6 +1,5 @@
 //Question 9:Case-Insensitive Search
 
-
 function searchProducts(products, searchQuery) {
     return products.filter(product => product.toLowerCase() === searchQuery.toLowerCase());
 }
